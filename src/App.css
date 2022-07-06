@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 550px;
+  margin: auto;
+  padding: 30px;
+  font-family: 'Inter'
+}
+
+
+.App{
+  width: 550px;
+  height: 704px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  color: white;
+  font-size: 14.46px;
+  gap: 7px;
+}
+
+.navTitle{
+  width: 100px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  
+}
+
+
+.logo{
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+
+.card{
+  display: flex;
+  height: 168px;
+  width: 470px;
+  margin: 40px;
+  margin-bottom: 10px;
+ 
+  padding-bottom: 5px;
+}
+
+
+.card-image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card-location{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.card-location{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin: 4px;
+}
+
+.card-googlemapsurl{
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+text-decoration-line: underline;
+margin-left: 12px;
+color: #918E9B;
+}
+
+.card-title{
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+
+.card-dates{
+  font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+}
+
+.card-description{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.location_icon{
+  width: 7px;
+  height: 9.55px;
+}
+
+.card-details{
+  margin-left: 10px;
+}
+
+
+.border-card{
+   padding-bottom: 1px;
+   border-bottom: 1px solid gray;
+   background: red;
+   width: 100%;
+}
